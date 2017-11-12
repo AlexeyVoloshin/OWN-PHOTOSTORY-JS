@@ -1,0 +1,221 @@
+
+@font-face {
+  font-family: pfagorasanspro-xthin;
+  src: url(./fonts/pfagorasanspro-xthin.ttf);
+}
+@font-face {
+  font-family: pfagorasanspro-thin;
+  src: url(./fonts/pfagorasanspro-thin.ttf);
+}
+@font-face {
+  font-family: pfagorasanspro-reg;
+  src: url(./fonts/pfagorasanspro-reg.ttf);
+}
+
+.style-main-panel{
+  height: 80px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1220px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.photo-book-image{
+  max-width: 162px;
+  width: 100%;
+  height: 19px;
+  margin: auto;
+}
+.photo-menu-image{
+  margin: auto;
+  width: 25px;
+  height: 18px;
+}
+.icons-main-panel{
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  width: 100%;
+}
+.style-number-phone{
+  background-color: #ffd200ff;
+  border-radius: 10px;
+  max-width: 211px;
+  width: 100%;
+  height: 37px;
+  line-height: 2;
+  text-align: center;
+  margin: auto;
+}
+.text-style-number{
+  border-bottom: 1px dotted #000;
+  font-size: 16px;
+  font-family: 'pfagorasanspro-thin';
+}
+.style-arrow-next{
+  width: 33px;
+  height: 29px;
+  margin: auto;
+}
+/*--------------------------------header-------------------------------*/
+.hero-image {
+  text-align: center;
+  height: 547px;
+  background: url("./assets/img/main-banner-hdpi.png") no-repeat bottom;
+  background-size: cover;
+}
+.photo-book-top-div{
+  padding-top: 60px;
+}
+.hero-text-style{
+  font-size: 60px ;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: 'pfagorasanspro-xthin';
+}
+p.text-style-top{
+  font-size: 24px;
+  font-family: 'pfagorasanspro-reg';
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.button-top-div{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+
+}
+a.button-midline  {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 2.5;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #000;
+  width: 377px;
+  margin: 85px 0 77px 0;
+  font-size: 26px;
+  font-family: 'pfagorasanspro-thin';
+  color: #000;
+  text-align: center;
+}
+/*--------------------------------------TpS---------------------------------*/
+.tps-div{
+  display: flex;
+  justify-content: space-around;
+}
+.tps-wrap{
+  width: 313px;
+}
+p.tps{
+  background-color: #f7d400ff;
+  text-decoration: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin:92px 0 0 0;
+  font-family: 'pfagorasanspro-thin';
+  font-size:36px;
+  text-align: center;
+  line-height: 2;
+  text-transform: uppercase;
+}
+.letter{
+  font-family: 'pfagorasanspro-thin';
+  font-size:135%;
+  position: relative;
+}
+.tps-text-style{
+  background-color:#f6f0e5ff;
+  margin-top: 5px;
+  height:238px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+.text-style{
+  margin: 0 36px 0 36px;
+  font-size:18px;
+  font-family: 'pfagorasanspro-thin';
+}
+.list{
+  margin: 15px 0 0 9px;
+}
+.tps-text-style-red {
+  margin-left: 36px;
+  font-weight: bold;
+  color: red;
+  font-size:16px;
+  font-family: 'pfagorasanspro-thin';
+}
+.photo-book-bottom-div{
+  display: flex;
+  justify-content: center;
+}
+.photo-book-bottom{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  line-height: 3;
+  padding: 2px;
+  background-color: #d41d32ff;
+  border-radius: 10px;
+  width: 380px;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'pfagorasanspro-thin';
+  margin: 75px 0px 119px 0px;
+}
+/*-------------------------------------footer------------------------------*/
+.footer-style {
+  background-color: #ffd200ff;
+  width: 100%;
+}
+.container-style{
+  position: relative;
+  margin: 0 auto;
+  max-width: 1120px;
+  width: 100%;
+}
+.wrap-style{
+  display: flex;
+  justify-content: space-around;
+}
+.cont-text-footer{
+  margin-top: 30px;
+}
+.text-footer-style{
+  font-family: 'pfagorasanspro-thin';
+  font-size: 18px;
+  color: #000;
+}
+.fb-vk-inst {
+  margin-top: 31px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+div.logo-style{
+  height: 109px;
+  width: 87px;
+  border: 1px solid #000;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-top: 52px;
+}
+.logo-text{
+  font-family: 'pfagorasanspro-reg';
+  margin: 14px 14px 14px 14px;
+  font-size: 11px;
+}
+.logo-img{
+  padding-left: 14px;
+}
+.logo-text-style{
+  display: flex;
+  justify-content: center;
+  background-color: #ffd200ff;
+  height: 60px;
+}
+

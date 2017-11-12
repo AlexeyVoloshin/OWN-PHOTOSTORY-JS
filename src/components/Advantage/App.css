@@ -1,0 +1,517 @@
+@font-face {
+    font-family: pfagorasanspro-xthin;
+    src: url(./../../fonts/pfagorasanspro-xthin.ttf);
+}
+@font-face {
+    font-family: pfagorasanspro-thin;
+    src: url(./../../fonts/pfagorasanspro-thin.ttf);
+}
+@font-face {
+    font-family: pfagorasanspro-reg;
+    src: url(./../../fonts/pfagorasanspro-reg.ttf);
+}
+
+.my-style-back {
+    text-align: center;
+    background-color: #f2f0e6ff;
+}
+.container-style{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1120px;
+    width: 100%;
+}
+h2.section-title {
+    word-wrap: break-word;
+    line-height: 1;
+    color: #000000ff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'pfagorasanspro-xthin';
+    text-transform: uppercase;
+}
+.section-title:first-letter{
+    font-family: 'pfagorasanspro-xthin';
+    font-size: 130%;
+}
+.my-style {
+    padding: 80px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.image-wrap{
+    margin-right: 10px;
+    width: 300px;
+}
+.my-style-img{
+    width:270px;
+    height:270px;
+}
+.text-under-image{
+    margin-top:20px;
+    font-family:  'pfagorasanspro-reg';
+    font-size:24px;
+    text-align: center;
+}
+.text-under-text{
+    font-size:16px;
+    text-align: center;
+    margin-top:30px;
+    font-family: 'pfagorasanspro-reg';
+}
+.style-button-red-div{
+    display: flex;
+    justify-content: center;
+}
+a.photo-book  {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 3;
+    padding: 2px;
+    background-color: #d41d32ff;
+    border-radius: 10px;
+    width: 377px;
+    text-align: center;
+    font-size: 26px;
+    font-family: "PF Agora Sans Pro-Thin";
+    margin:85px 0 77px 0;
+}
+@media screen and (max-width: 1030px){
+    .max-width{
+        max-width: 911px;
+    }
+    .style-main-panel{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.book-image{
+        background-position: unset;
+    }
+    .photo-menu-image{
+        width: 26px;
+        height: 18px;
+        margin: auto;
+    }
+    .style-arrow-next{
+        width: 34px;
+        height: 24px;
+        margin: auto;
+    }
+    p.text-style-top{
+        font-size: 18px;
+    }
+    .photo-book-image{
+        width: 1161px;
+        height: 18px;
+        margin: auto;
+    }
+    .style-number-phone{
+        max-width: 146px;
+        height: 34px;
+        margin: auto;
+        line-height: 1.5;
+    }
+    .text-style-number{
+        font-size: 15px;
+        line-height: 2;
+    }
+    .icons-main-panel{
+        max-width: 495px;
+        margin-top: 10px;
+    }
+    .hero-image{
+        height: 374px;
+    }
+    .disable-width{
+        margin-top: 75px;
+        max-width: 800px;
+    }
+
+    h2.head-text{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    a.button-size{
+        width: 263px;
+        margin: 40px 0 44px 0;
+        font-size: 18px;
+    }
+    .my-style{
+        padding: 20px 0 20px 0;
+    }
+    .my-style-img{
+        width: 150px;
+        height: 150px;
+    }
+    .text-under-image{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .text-under-text{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .container-testimonial{
+        max-width: 810px;
+        padding-top: 30px;
+    }
+    p.style-text-h5{
+        font-size: 30px;
+        font-family: 'pfagorasanspro-thin';
+    }
+    .text-style-John{
+        font-size: 18px;
+    }
+    .text-style-commit{
+        font-size: 14px;
+    }
+    .styleNameMen{
+        margin-top: 77px;
+    }
+    .image-men{
+        width: 129px;
+    }
+
+    .text-style{
+        font-size: 14px;
+    }
+    .logo-text-style{
+        height: 40px;
+        margin-top: 20px;
+    }
+    .container-style{
+        max-width: 911px;
+    }
+    .text-footer-style{
+        font-size: 14px;
+    }
+    .logo-img{
+        width: 43px;
+        height: 29px;
+    }
+    .logo-text{
+        font-size: 9px;
+    }
+    div.logo-style{
+        height: 95px;
+        width: 76px;
+    }
+    .container{
+        width: 110px;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+    .column-containers {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.book-image{
+        background-position: -14px;
+    }
+    .max-width-line{
+        max-width: 401px;
+    }
+    div.logo-style{
+        margin-top: 17px;
+    }
+    .disable-width{
+        max-width:0;
+        margin-top: 0;
+    }
+    .column-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cont-text-footer{
+        margin-top: 15px;
+    }
+    .image-wrap{
+        margin-top: 10px;
+    }
+    .container{
+        margin-top: 15px;
+    }
+    .fb-vk-inst{
+        margin-top: 15px;
+    }
+    .container-testimonial{
+        max-width: 702px;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .container-testimonial {
+        max-width: 535px;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 580px){
+    .max-width{
+        max-width: 560px;
+    }
+    div.book-image{
+        background-position: -196px;
+    }
+
+    .style-main-panel{
+        display: flex;
+        justify-content: space-between;
+    }
+    .column{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-menu-image{
+        width: 12px;
+        height: 6px;
+        margin: auto;
+    }
+    .style-arrow-next{
+        width: 16px;
+        height: 12px;
+        margin: auto;
+    }
+    p.text-style-top{
+        font-size: 18px;
+    }
+    .photo-book-image{
+        width: 100px;
+        height: 12px;
+
+        margin: auto;
+    }
+    .style-number-phone{
+        max-width: 96px;
+        height: 23px;
+        margin: auto;
+        line-height: 1.5;
+    }
+    .text-style-number{
+        font-size: 9px;
+        line-height: 0;
+    }
+    .icons-main-panel{
+        max-width: 157px;
+        margin-top: 10px;
+    }
+    .hero-image{
+        height: 374px;
+    }
+    .disable-width{
+        width: 0;
+    }
+
+    h2.head-text{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    a.button-size{
+        width: 263px;
+        margin: 62px 0 44px 0;
+        font-size: 18px;
+    }
+    .my-style{
+        padding: 20px 0 20px 0;
+    }
+    .my-style-img{
+        width: 150px;
+        height: 150px;
+    }
+    .text-under-image{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .text-under-text{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+
+    .container-testimonial{
+        max-width: 400px;
+        padding-top: 30px;
+    }
+    p.style-text-h5{
+        font-size: 30px;
+        font-family: 'pfagorasanspro-thin';
+    }
+    .text-style-John{
+        font-size: 18px;
+    }
+    .text-style-commit{
+        font-size: 14px;
+    }
+    .styleNameMen{
+        margin-top: 77px;
+    }
+    .image-men{
+        width: 129px;
+    }
+
+    .text-style{
+        font-size: 14px;
+    }
+    .logo-text-style{
+        height: 40px;
+        margin-top: 20px;
+    }
+    .container-style{
+        max-width: 317px;
+    }
+    .text-footer-style{
+        font-size: 14px;
+    }
+    .logo-img{
+        width: 43px;
+        height: 29px;
+    }
+    .logo-text{
+        font-size: 9px;
+    }
+    div.logo-style{
+        height: 95px;
+        width: 76px;
+
+    }
+    .container{
+        width: 110px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .max-width{
+        max-width: 320px;
+    }
+    .div.book-image{
+        background-position: -368px;
+    }
+    .style-main-panel{
+        display: flex;
+        justify-content: space-between;
+    }
+    .column{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-menu-image{
+        width: 12px;
+        height: 6px;
+        margin: auto;
+    }
+    .style-arrow-next{
+        width: 16px;
+        height: 12px;
+        margin: auto;
+    }
+    p.text-style-top{
+        font-size: 18px;
+    }
+    .photo-book-image{
+        width: 100px;
+        height: 12px;
+
+        margin: auto;
+    }
+    .style-number-phone{
+        max-width: 96px;
+        height: 23px;
+        margin: auto;
+        line-height: 1.5;
+    }
+    .text-style-number{
+        font-size: 9px;
+        line-height: 0;
+    }
+    .icons-main-panel{
+        max-width: 157px;
+        margin-top: 10px;
+    }
+    .hero-image{
+        height: 374px;
+    }
+    .disable-width{
+        width: 0;
+    }
+
+    h2.head-text{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    a.button-size{
+        width: 263px;
+        margin: 62px 0 44px 0;
+        font-size: 18px;
+    }
+    .my-style{
+        padding: 20px 0 20px 0;
+    }
+    .my-style-img{
+        width: 150px;
+        height: 150px;
+    }
+    .text-under-image{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .text-under-text{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .container-testimonial{
+        max-width: 299px;
+        padding-top: 30px;
+    }
+    p.style-text-h5{
+        font-size: 30px;
+        font-family: pfagorasanspro-thin;
+    }
+    .text-style-John{
+        font-size: 18px;
+    }
+    .text-style-commit{
+        font-size: 14px;
+    }
+    .styleNameMen{
+        margin-top: 77px;
+    }
+    .image-men{
+        width: 129px;
+    }
+
+    .text-style{
+        font-size: 14px;
+    }
+    .logo-text-style{
+        height: 40px;
+        margin-top: 20px;
+    }
+    .container-style{
+        max-width: 317px;
+    }
+    .text-footer-style{
+        font-size: 14px;
+    }
+    .logo-img{
+        width: 43px;
+        height: 29px;
+    }
+    .logo-text{
+        font-size: 9px;
+    }
+    div.logo-style{
+        height: 95px;
+        width: 76px;
+    }
+    .container{
+        width: 110px;
+    }
+
+}
